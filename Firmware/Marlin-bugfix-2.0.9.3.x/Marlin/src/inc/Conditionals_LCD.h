@@ -598,7 +598,7 @@
   #define E_AXIS_N(E) AxisEnum(E_AXIS + E_INDEX_N(E))
 #else
   #undef EXTRUDERS
-  #define EXTRUDERS 0
+  #define EXTRUDERS 1
   #undef SINGLENOZZLE
   #undef SWITCHING_EXTRUDER
   #undef SWITCHING_NOZZLE
